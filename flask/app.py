@@ -229,8 +229,7 @@ def stock():
         print("the name of the ticker is ")
         print(ticker)
         data = {"ticker": ticker, "current_price": current_price}
-        return render_template("index.html",data = data, current_price = current_price, ticker = ticker, price = price_status, date = dates, price_reason = price_reason)
-        
+       
 
         
 
