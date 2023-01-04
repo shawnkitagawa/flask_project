@@ -1,0 +1,49 @@
+.name
+{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+body{
+    background-color:black;
+}
+.ticker
+{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+.search_select_box
+{
+    text-align: center;
+}
+.PE
+{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+#introduction
+{
+    /* padding-top:20px; */
+    text-align: left;
+    margin-left:100px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Bangers', cursive;
+}
+.portfolio
+{
+    padding-top:40px;
+    padding-bottom:440px;
+    background-image:url(../img/akira.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x:right;
+}
+#student
+{
+    font-size: 15px;
+}
+#college
+{
+    font-size:15px;
+}

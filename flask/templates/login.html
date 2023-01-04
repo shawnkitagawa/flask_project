@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<img src ="../static/img/potato.png" width = "40" height="60" alt = "">
+
+{% endblock %}
+
+{% block content%}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+
+    {% endwith %}
+<form action = "#" , method = "post">
+    <p>Name:</p>
+    <p><input type = "text" name = "nm" placeholder="Enter your Full Name" /></p>
+    <p>Email:</p>
+    <p><input type = "text" name = "email" placeholder="Enter Email"></p>
+    <p><input type = "submit" value = "submit"  /></p>
+    
+    </form>
+    
+    
+
+{% endblock %}

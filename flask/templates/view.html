@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block head%}
+<img src ="../static/img/potato.png" width = "40" height="60" alt = "">
+
+{% endblock %}
+
+{% block content %}
+
+{% for item in values %}
+    <p>Name: {{item.name}} , Email: {{item.email}}</p>
+{% endfor %}
+{% endblock %}

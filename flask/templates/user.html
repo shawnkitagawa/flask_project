@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<img src ="../static/img/potato.png" width = "40" height="60" alt = "">
+
+{% endblock %}
+
+{% block content%}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+
+    {% endwith %}
+    <h1>{{user}}</h1>
+    <h1>{{email}}</h1>
+{% endblock %}
